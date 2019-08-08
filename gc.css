@@ -1,0 +1,59 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.container{
+	height: 1000px;
+	width: 100%;
+	background-color: black;
+}
+
+.box{
+	height: 100px;
+	width: 100%;
+	background-color: #d4ff00;
+
+}
+
+h1{
+	font-family: Agency FB;
+	font-size: 50px;
+	color: #000000;
+
+}
+
+h1 a{
+	text-decoration: none;
+	color: #000000;
+}
+
+h2{
+	font-family: Comic Sans MS;
+	color: white;
+}
+
+h3{
+	font-family: Comic Sans MS;
+	color: white;
+	text-decoration: underline;
+}
+
+table{
+	width: 100%;
+}
+
+th{
+	color: white;
+	text-align: left;
+
+}
+
+tr{
+	color: red;
+}
+h4{
+font-family: Comic Sans MS;
+	color: white;	
+}

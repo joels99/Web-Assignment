@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link rel="stylesheet" type="text/css" href="hp.css">
+	<meta charset="utf-8"/>
+	<script type="text/javascript">
+		var rsure = false;
+		var il = false;
+		function rsure(){
+			if (allowPrompt) {
+				if (!rsure && il && true) {
+					rsure = true;
+					var confmsg = "Are you sure you want to leave this page"
+					return confmsg;
+				}
+			}else{
+				allowPrompt = true;
+			}
+		}
+		var allowPrompt = true;
+		window.onbeforeunload = allowPrompt;
+	</script>
+</head>
+<body>
+<div class="container">
+	<div class="box">
+		<h1><a href="homepage.html">eduguru</a></h1>
+	</div>
+	<div class="dropdown">
+	<ul>
+		<li><a href="#">Subjects</a>
+			<ul>
+				<li><a href="subs AL.html">A/L</a></li>
+				<li><a href="subs OL.html">O/L</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Tutorials</a>
+			<ul>
+				<li><a href="Als.html">A/L Tutorials</a></li>
+				<li><a href="Tutorials OL.html">O/L Tutorials</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Classes near Me</a>
+			<ul>
+				<li><a href="Nugegoda classes.html">Nugegoda</a></li>
+				<li><a href="Dehiwala classes.html">Dehiwala</a></li>
+				<li><a href="Moratuwa classes.html">Moratuwa</a></li>
+				<li><a href="Gampaha classes.html">Gampaha</a></li>
+			</ul>
+		</li>
+		<li><a href="Gallery.html">Gallery</a></li>
+		
+		<li><a href="contact us.html">Contact us</a></li>
+	</ul>
+	<div class="box2">
+		<div class="slideim">
+			
+		</div>
+		
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<h2>Sakya</h2>
+			<br>
+			<h5>CHOOSE THE SAKYA EXPERIENCE</h5>
+			<br>
+			<p>We provide a well equipped institute with state of the art facilities, starting from classrooms to the nitty-gritty’s to make the studying experience of our students an easy and a well facilitated one. Parents are assured of the safety of their children at “Sakya” and discipline is of utmost importance to us.
+
+We are diverse, welcoming, accepting and passionate about being the best we can be. Join us to make your higher education experience unforgettable.</p>
+<br><br><br><br><br><br>
+<form action="insert.php" method="POST">
+  <table>
+   <tr>
+    <td>Name :</td>
+    <td><input type="text" name="username" required></td>
+   </tr>
+   <tr>
+    <td>Password :</td>
+    <td><input type="password" name="password" required></td>
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td><input type="email" name="email" required></td>
+   </tr>
+   <tr>
+    <td><input type="submit" value="Submit"></td>
+   </tr>
+  </table>
+ </form>
+		</div>
+		<div class="sign">
+			<h6>Copyright © All rights reserved, | Design & Developed by CodeRed Studios</h6>
+		</div>
+		</div>
+	</div>
+	</div>
+</div>
+</body>
+</html>

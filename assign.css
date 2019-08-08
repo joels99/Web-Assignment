@@ -1,0 +1,60 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.container{
+  height: 1000px;
+  width: 100%;
+  background-color: black;
+}
+
+.box{
+  height: 100px;
+  width: 100%;
+  background-color: #d4ff00;
+
+}
+
+h1{
+  font-family: Agency FB;
+  font-size: 50px;
+  color: #000000;
+
+}
+
+h1 a{
+  text-decoration: none;
+  color: #000000;
+}
+
+table{
+  color: white;
+
+}
+
+table th{
+  text-align: left;
+}
+
+table tr td{
+  color: red;
+}
+
+table tr td a{
+  color: #e5ff00;
+  text-decoration: none;
+}
+
+h2{
+  color: white;
+  font-family: Comic Sans MS;
+
+}
+
+p{
+  color: white;
+  font-size: 20px;
+  font-family: Comic Sans MS;
+}

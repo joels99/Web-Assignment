@@ -1,0 +1,18 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.container{
+	height: 1500px;
+	width: 100%;
+	background-color: black;
+}
+
+.box{
+	height: 100px;
+	width: 100%;
+	background-color: #d4ff00;
+
+}
